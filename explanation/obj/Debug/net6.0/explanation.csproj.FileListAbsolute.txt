@@ -1,0 +1,15 @@
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\bin\Debug\net6.0\explanation.exe
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\bin\Debug\net6.0\explanation.deps.json
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\bin\Debug\net6.0\explanation.runtimeconfig.json
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\bin\Debug\net6.0\explanation.dll
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\bin\Debug\net6.0\explanation.pdb
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\explanation.csproj.AssemblyReference.cache
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\explanation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\explanation.AssemblyInfoInputs.cache
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\explanation.AssemblyInfo.cs
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\explanation.csproj.CoreCompileInputs.cache
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\explanation.dll
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\refint\explanation.dll
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\explanation.pdb
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\explanation.genruntimeconfig.cache
+C:\Users\vasol\OneDrive\Рабочий стол\dz\explanation\obj\Debug\net6.0\ref\explanation.dll

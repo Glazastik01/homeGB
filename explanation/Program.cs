@@ -1,4 +1,4 @@
-/*Console.WriteLine("Введите первое число: ");
+﻿/*Console.WriteLine("Введите первое число: ");
 string a1 = Console.ReadLine();
 int a = Convert.ToInt32(a1);
 Console.WriteLine("Введите второе число: ");
@@ -762,4 +762,155 @@ for(int i = 0; i < len; i++){
 }
 PrintArray(arr);
 PrintArray(result);
+*/
+
+/*
+int GetNumber(string message)
+{
+    int result;
+    while(true)
+    {
+        Console.WriteLine(message);
+
+        if(int.TryParse(Console.ReadLine(), out result))
+        {
+            break;
+        }
+        else
+        {
+            Console.WriteLine("Ввели не число.");
+        }
+    }
+
+    return result;
+}
+
+int[] InitArray(int dimension)
+{
+    Random rnd = new Random();
+    int[] array = new int[dimension];
+
+    for (int i = 0; i < dimension; i++)
+    {
+        array[i] = rnd.Next(1,10);
+    }
+
+    return array;
+}
+
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
+}
+
+int[] ReverseArray(int [] array)
+{
+    int [] result = new int[array.Length];
+    int count = 0;
+
+    for (int i = array.Length - 1; i >= 0; i--)
+    {
+        result[count] = array[i];
+        count++;
+    }
+    return result;
+}
+
+int dimension = GetNumber("Введите размерность массива");
+int[] array = InitArray(dimension);
+PrintArray(array);
+
+int[]result = ReverseArray(array);
+PrintArray(result);
+
+Array.Reverse(result);
+PrintArray(result);
+*/
+
+/*
+bool calk(int a, int b, int c){
+    return a < b + c && c < a + b && b < a + c;
+}
+
+
+int a = 10;
+int b = 11;
+int c = 12;
+string ne = calk(a, b, c)? "" : "не";
+
+Console.WriteLine($"Стороны: {a}, {b}, {c}");
+Console.WriteLine($"Треугольник {ne} может существовать");
+*/
+/*
+string GetBinaryFromDecimal(int decimalNumber)
+{
+    // 11 % 2 = 5.5 = 1
+    // 5 % 2 = 2.5 = 1
+    // 2 % 2 = 1 = 0
+    // 1 % 2 = 0.5 = 1
+    int number = decimalNumber;
+    int ostatok = 0;
+    string result = String.Empty;
+
+    while (number >= 1)
+    {
+        ostatok = number % 2;
+        number /= 2;
+        if (ostatok != 0)
+        {
+            result += "1";
+        }
+        else
+        {
+            result += "0";
+        }
+    }
+
+    return new string (result.Reverse().ToArray());
+}
+
+Console.WriteLine(GetBinaryFromDecimal(11));
+Console.WriteLine(GetBinaryFromDecimal(158));
+*/
+
+
+/*
+Console.WriteLine("Введите число");
+int Num = Convert.ToInt32(Console.ReadLine());
+int fib1 = 1;
+int fib2 = 1;
+int len = 0;
+Console.Write($"0 {fib1} {fib2} ");
+while(len < Num - 2){
+    int fib_sum = fib1 + fib2;
+    fib1 = fib2;
+    fib2 = fib_sum;
+    len++;
+    Console.Write($"{fib_sum} ");
+}
+*/
+
+/*
+string ConvertNumberToAnySys(int num, int sys)
+{
+    if (num < sys) return Convert.ToString(num);
+    List<int> quot = new List<int>();
+    List<int> remain = new List<int>();
+    while (num >= sys)
+    {
+        remain.Add(num % sys);
+        num /= sys;
+        quot.Add(num);
+    }
+    remain.Add(quot[quot.Count - 1]);
+    remain.Reverse();
+    return string.Join("", remain);
+}
+
+string a = ConvertNumberToAnySys(10, 2);
+Console.WriteLine(a);
 */
